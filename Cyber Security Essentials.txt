@@ -1,0 +1,100 @@
+Cyber Security Essentials
+
+Cyber Security Definitions:
+NIST: the ability to protect or defend the use of cyberspace from cyber attack
+
+CNSS: Prevention of damage to and the protection of and the restoration of computers,
+ electronic communications systems, electronic communications services, wire communications
+and electronic communication including information contained therin
+to ensure its availability,intergrity,authentication,confidentiality and non-repudiation
+
+McCumber Cube
+
+Area 1 - Desired Goals
+	Confidentiality
+	Integrity
+	Availability
+Area 2 - Data States
+	Transmission
+	Storages
+	Processing
+Area 3 - Safeguards
+	Human Factors
+	Policy and Practices
+	Technology
+
+Confidentiality - Prevention of unauthorized access
+Integrity - Ensuring the data is in its correct state
+Availability - Ensuring those authorized have easy access to the data
+
+Storage - Data At Rest (DAR) this is that data in the system currently being stored in 
+	  disks or magnetic tape
+Transmission - Data In Transit (DIT) data moving between information systems
+Processing - Do operations on the data to achieve an objective
+
+Policy and Practices - Administrative controls/operations of the information system
+Human Factors - Personnel methods to protect the data like training to use the technology
+		and the policy for the system
+Technology - Software and Hardware solutions to protect the information system
+
+Essential Terms
+Asset - What is being protected
+Vulnerability - Weakness or gap in the protection effort
+Exploit - How the vulnerability is leveraged by hackers
+Threat - What is trying to be protected against
+Risk - Where the asset, threats and vulnerabilities combine
+
+Vulnerabilities
+1. Design and development errors
+2. Poor system configuration
+3. Human erros - send access to the system accidentally, responding to phishing attempts
+4. Connectivity - unsecure networks
+5. Complexity - the more things a system can do the more likely an accidental vulnerability can form
+6. Passwords - systems allowing weak passwords are vulnerable yet should require too much
+7. User Input - limit what can be input so dangerous code can't be easily added to the system
+8. Management
+9. Lack of training
+10. Communication
+
+Types of Cyber attack
+
+1. Un-targeted cyber attacks - like phishing emails, just trying to get anyone to click the link
+2. Tarfeted attack - spear-phishing, want a specific person or group of people to access a link or similar to give specific
+		     access to a network or target
+
+Cyber threat actors
+
+Nation states - Geopolitical
+Cybercriminals - Profit
+Hacktivists - Ideology
+Terrorist Groups - Ideological violence
+Thrill Seekers - Cause why not
+Insider Threats - Discontent
+
+Cyber Threats
+
+Malware - Software that does a malicious or unwanted task on a device or network, not necessarily directly harmful
+Spyware - Subsection of malware that hides on the device to provide real time information
+Physhing attacks - Cybercriminals attempt to lure individuals to giving away sensitive data usually through impersonation
+Distributed Denial of Service (DDOS) attack - designed to flood a network with requests to cause it to overload or crash
+Ransomware - Another subsection of malware that denies access to a computer, network or data until a ransom is paid
+Zero-day Explot - A flaw in software, hardware or firmware that is unkown to those responsible to patching the flaws
+Advanced Persistent threats - When an unwanted user gains access to a system then remains undetected for a long period of time
+Trojan - Uses a backdoor to get into your system
+Wiper attacks - Malware subsection thats goal is to wipe your hard drive
+Intellectual property theft - stealing or using someones else's IP without permission
+Money Theft - Gaining access to bank accounts or credits cards to steal money or purchase unwanted items for the theif
+Data manipulation - infiltrating a system to modify or add to existing data instead of taking it
+Data destruction - attacking a system to destroy data
+Man-in-the-middle attack (MITM) - attack the information during communication between two parties
+Drive-by downloads - Downloads that happen without the user being aware, such as when you get to a website or open an email
+Rogue Software - a subsection of malware where legitimate software is being used as a disguise for malware
+Unpatched software - software with known security weaknessess that have yet to be fixed
+Data centre disruption due to natural disasters - location of data storage damaged via external means like flooding
+Water holing - exploiting user by using a fake website or compromising a genuine one
+Spear-phishing - sending emails to targeted individuals with malicious software or links to malicious software
+Deploying a botnet - used to deliver DDOS attacks
+Subverting the supply chain - attack equipment or software being delivered to an organisation
+
+
+

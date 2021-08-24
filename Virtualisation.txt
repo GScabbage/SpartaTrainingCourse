@@ -1,0 +1,30 @@
+Virtualisation - is the process of seperating software from hardware
+Virtual Server - the server has no physical form just a virtual format
+Hypervisor - aka Virtual Machine Monitor (VMM) is an interface between the Virtual Machine and the host
+
+Traditional Architecture:
+Applications
+Operating System
+Physical node
+
+Virtual Architecture:
+Many Applications
+Many operating systems
+Virtualization Layer "Hypervisor"
+Physical Node
+
+Types of Virtualisation
+
+Type 1:
+No underlying OS on the hardware, hypervisor is running directly on the host machine
+Single security layer provided by hypervisor
+Examples - Xen, Microsoft Hyper V, VMware ESX/ESXi
+
+Type 2:
+Does use an underlying OS like Microsoft Windows or Linux, 
+this way the hypervisor is just another software on the OS and shares its resources like any other app on an OS
+Two security layers provided by the hypervisor and the host OS
+Examples - VMware Workstation, VMware Player, VirtualBox
+
+Type 1 has better security, despite having only 1 layer it has much less running for vulnerabilities in the first place
+Type 1 has better performance it is running directly on the host machine and doesnt have to share with the real machine

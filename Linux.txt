@@ -1,0 +1,24 @@
+Linux Architecture
+Imagine a many layer circle, like those drawings of the earths core
+The core is hardware
+The lower mantle is the Kernel
+The Upper mantle is the shell
+The crust is the applications and utilities 
+In the void above it is you the user
+
+The shell is the interface between the user, applications and utilities and the kernel
+
+Linux has many distributions, each one focuses on a different purpose. 
+For example Ubuntu is for normal use while Kali is mainly for cyber security purposes
+
+Linux mainly uses EXT4 for its file system
+
+With Linux everything starts at the root instead of with a letter like c,d,e
+Linux use the everything is a file, everything you use is treated as a file
+Commands, file names and directories are case sensitive
+Hidden files/directories start with a "."
+
+The Linux shell aka the command line, terminal
+can be accessed via activities by typing in shell/terminal
+or by ctrl-alt-T
+
