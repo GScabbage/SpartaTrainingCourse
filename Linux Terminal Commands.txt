@@ -1,0 +1,36 @@
+Linux Commands 2
+
+cat - writes exactly what is contained within a file
+sudo before command get root privelage
+Car /etc/passwd - this displays all of the accounts on the linux system, most of them are generated automatically by the system
+		  the additional user are for different process on the computer
+| grep - use this after a command then after it something to filter your output by
+sudo cat /etc/shadow - used to see user passwords
+sudo apt-get update - updates the database of the install packages
+sudo apt upgrade - upgrade the packages themselves
+ps - ef - gets all the processes running and all the files they are using
+displayed with UID - the user ID, the PID - the process ID, the PPID - the parent process ID
+sudo kill PID - use this to kill a process via specific process ID
+sudo kill PID -9 - use this to kill a process without a chance to escape
+sudo apt install tree - generates a dependancy tree
+man tree - get the manual for using tree
+tree [location] - this gives all the the file depedency on the chosen location
+-y after command says yes to everything you asked it to do
+history - gives a list of used commands
+lsof - gives list of open files, put sudo in front to get past permission problems
+sudo apt remove --purge [package name] - deletes everything about a specific package from the system
+more [filename] - gives the whole file and space to read more of the file
+tail [filename] - gives the last 10 lines of the file
+tail [filename] -f - will do the same but update in the terminal when something new is added
+sudo adduser [newusername] - creates a new user and new group for that user, allows you to assign a password and other parameters
+su [username] - changes the account you are currently acting as
+passwd - allows changing of password
+sudo usermod -aG sudo [username] - modifies the target user account to give them root privelages by adding them to the sudo group
+-aG - adds to group with usermod command
+sudo deluser [username] [groupname] - removes user from a specific group such as sudo
+passwd -S - gets info on the passwords for current user, such as creation date, minimum and max age
+sudo passwd -Sa - get info on passwords for all users
+sudo deluser [username] - removes target user
+nano - gives access to the script editor
+nano [filename.sh] - create and edit a file with specified name
+chmod [0-7][0-7][0-7] [filename] - changes what you can do with a file, 421 - rwx

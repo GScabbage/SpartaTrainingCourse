@@ -1,0 +1,4 @@
+Used crontab -e to get to scheduler
+Crontab code below used to schedule the process tasks for every 30 seconds
+* * * * * ( /home/cybercourse/procmon.sh )
+* * * * * ( sleep 30 ; /home/cybercourse/procmon.sh )
