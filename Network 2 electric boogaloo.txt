@@ -1,0 +1,34 @@
+NIC - Network Interface Controller
+NIC to NIC communications within the same network
+Prepares network data for the physical network
+Ethernet is only one type of protocols/devices used in LAN
+That data link layer prepares network for the physical network
+
+Ethernet is the most common type of LAN
+It has multiple connection modes
+Half-Duplex mode: it either sends or recieves data, but can't do both
+Full-Duplex mode: it can send and recieve at the same time
+
+Ethernet types-
+Ethernet 10Mbps half-duplex
+FastEthernet 100Mbps half-duplex/full-duplex (the standard on modern PCs)
+1 Gigabit Ethernet 1Gbps half-duplex/full-duplex
+10 Gigabit Ethernet 10Gbps full-duplex (used by most servers)
+
+Switch
+a switch is made up of integrated circuits and the accompanying software that controls that data paths through the switch
+a switch is composed of several ports. each port is used to connect to an end device or to another intermediary device
+forward the traffic (based on the destination MAC address) recieved on a port to another port where the destination is connected
+switch uses its source mac address to build its own knowledge base to forward traffic to the correct mac address, if it doesnt
+know then it will send the packet out of all ports except the one it was recieved on
+
+Data-link encapsulation
+It gets the network header from layer 3, which contains the source IP and the destination IP
+the Data-link header in layer 2 has the source MAC address and destination MAC address
+to get the destination MAC the Address Resolution Protocol(ARP) is used
+
+ARP is the layer 2 protocol that is used to find the MAC address of the NIC(on the same network) that has a certain IP address
+ARP mechanism:
+if you need the MAC of an IP address, broadcast on your network
+all devices on your network will recieve the broadcast request
+only the concerned device (i.e. the NIC with that IP) will reply

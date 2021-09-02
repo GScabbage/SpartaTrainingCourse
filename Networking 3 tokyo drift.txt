@@ -1,0 +1,22 @@
+The network layer, layer 3
+
+a router is a networking device that forwards (routes) the traffic between computer networks
+
+Switch 					Vs 			Router
+forwards traffic based on destination MAC address		forwards traffic based on IP address
+pass broadcast frames to all ports (except recieving one)	doesn't forward any broadcast frames
+one broadcast domain						splits the broadcast domain into multiple broadcast domains
+connects PCs that share the same newtork id			connect networks that have different network id
+forward traffic between networks that are connected		can connect networks that are connect using different technology
+using the same data-link standard (e.g. Ethernet)		e.g. Ethernet, ADSL, Broadband, etc
+
+the Default Gateway
+It's the router interface that is connected on a network reachable from the host
+it's the IP address of the NIC of a router
+a host uses it in case it wants to send data to another host in a different network
+it should be directly connected on the same network of the hosts
+the IP address of a default gateway should have the same NetID of the hosts
+a host send the traffic to the router when it finds out that the destination IP address isn't on its network
+
+Small Network Routing
+the most simple router is a computer that has two network interface cards at least

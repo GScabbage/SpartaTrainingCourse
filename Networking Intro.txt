@@ -1,0 +1,58 @@
+Network Components
+
+Hosts - anything connected to the network
+Peer-to-peer - the connected machines can provide a service or use a service, such as using a printer
+Intermediary Device - devices that interconnect end devices like a wifi router
+Network Media - The communications channels used to interconnect nodes on a computer network like cables, radio waves
+
+Network Infrastructure
+LAN - Local Area Network, a computer network that interconnects computers within a limited area such as school or office block
+WAN - Wide Area Network, a network of interconnected LAN's such as a broadband provider
+
+Intranet - a computer network for sharing tools, operational systems and computer services within an organisation which excludes
+	   access to outsiders
+Extranet - a controlled private network
+Internet -
+
+Communications Fundamentals
+Message Source - People or electronic device that needs to send a message to another individual or device
+Message Destination - this recieves the message and interprets it
+Channel - The media with which provides the pathway for the message to travel from its source to destination
+
+Message Delivery Options
+Unicast - Information is being transmitted to a single end device
+Multicast - Information is being transmitted to one or more end devices
+Broadcast - Information is being transmitted to all end devices
+
+Protocol Suites
+ISO Suite
+Physical Layer - Is responsible for sending bits between devices
+Data Link Layer - decides and controls how the data will be transmitted from the physical layer, handles bit transmission
+		  erros and controls the flow of data
+Network Layer - 
+Transport Layer - the actual data transporting process, TCP - Transmission Control Protocol, UDP - User Datagram Protocol
+                  TCP ensure all the data is recieved, is more time consuming but is needed if all data must be recieved such as an email
+		  UDP can detect corrupt or lost data packets but doesnt stop it, is much faster but less reliable so useful for
+		  things like streaming or video chats as data can be repeated and you likely wont notice missing data
+Session Layer -
+Presentation Layer -
+Application Layer -
+
+TCP/IP Protocol Suite
+
+
+Port Numbers
+TCP and UDP use port numbers to manage multiple, simultaneous conversations
+Destination port number is assoctated with the destination application on the server host
+Source port number is associated with the originating application on the user's host
+A server can offer more than one service simultaneously such as
+SSH service on port 22
+Web services on port 80
+FTP establishment on port 21
+Source port number acts as a return address for the requesting application
+
+Port Number Groups
+Well-known Ports - 0 to 1,023 - Reserved for common or popular services and applications such as web browsers, email clients and remote access clients
+Registered Ports - 1024 to 49151 - Assigned by IANA to a requesting entity to use with specific processes or applications
+Private and/or Dynamics ports - 49152 to 65535 - These port are known as ephemeral ports, the client's OS usually assign port numbers
+						 dynamically when a connection to a service is initiated	
