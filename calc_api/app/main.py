@@ -130,4 +130,4 @@ def authenticate_newuser():
     return resp
 
 if __name__ == "__main__":
-    flaskapp.run(debug = True, ssl_context = ('cert/cert.pem', 'cert/key.pem'))
+    flaskapp.run(debug = True)
